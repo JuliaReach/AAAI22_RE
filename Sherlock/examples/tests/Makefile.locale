@@ -1,0 +1,3 @@
+# change according to system and Gurobi version
+GUROBI_PATH = $HOME/programs/gurobi-8.0.1
+HOST_ARCH = linux64
