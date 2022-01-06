@@ -1054,14 +1054,16 @@ uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
 [[deps.NeuralNetworkAnalysis]]
 deps = ["CommonSolve", "LazySets", "MathematicalSystems", "NeuralVerification", "ReachabilityAnalysis", "Reexport", "Requires"]
 git-tree-sha1 = "e4df9f2aeb39d9d7e970cbdbc71722fa05d16d4c"
-repo-rev = "master"
+repo-rev = "7c071a3"
 repo-url = "https://github.com/JuliaReach/NeuralNetworkAnalysis.jl"
 uuid = "73c0b437-a350-4e9b-97ac-9adb151c271b"
 version = "0.1.0"
 
 [[deps.NeuralVerification]]
 deps = ["CDDLib", "GLPK", "GLPKMathProgInterface", "Interpolations", "JuMP", "LazySets", "LinearAlgebra", "Parameters", "PicoSAT", "Pkg", "Polyhedra", "Random", "Reexport", "Requires", "SCS"]
-path = "/home/christian/.julia/dev/NeuralVerification"
+git-tree-sha1 = "03e12ef481c9f209cb33f07ebfdac9e79eebe6ef"
+repo-rev = "237f092"
+repo-url = "https://github.com/sisl/NeuralVerification.jl"
 uuid = "146f25fa-00e7-11e9-3ae5-fdbac6e12fa7"
 version = "0.1.0"
 
