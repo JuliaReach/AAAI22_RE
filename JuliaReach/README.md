@@ -34,17 +34,14 @@ This manual describes the steps to run the JuliaReach experiments.
 Go to the `JuliaReach` folder, open a REPL, and load the experiments like this:
 
 ```julia
-julia> include("Sherlock-Benchmark-10-Unicycle/Sherlock-Benchmark-10-Unicycle.jl")
-
-julia> include("Sherlock-Benchmark-9-TORA/Sherlock-Benchmark-9-TORA.jl")
-
-julia> include("ACC/ACC.jl")
-
-julia> include("Single-Pendulum/Single-Pendulum.jl")
-
-julia> include("Double-Pendulum/Double-Pendulum.jl")
-
-julia> include("Airplane/Airplane.jl")
+julia> begin
+           include("Sherlock-Benchmark-10-Unicycle/Sherlock-Benchmark-10-Unicycle.jl")
+           include("Sherlock-Benchmark-9-TORA/Sherlock-Benchmark-9-TORA.jl")
+           include("ACC/ACC.jl")
+           include("Single-Pendulum/Single-Pendulum.jl")
+           include("Double-Pendulum/Double-Pendulum.jl")
+           include("Airplane/Airplane.jl")
+       end
 ```
 
 Note that Julia is just-in-time compiled and hence the first run is slow. That is why we run a short warm-up version in the benchmark scripts.
