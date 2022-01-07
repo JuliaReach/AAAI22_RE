@@ -1,4 +1,4 @@
-eeeeeeeee# AAAI22_RE
+# AAAI22_RE
 
 Repeatibility evaluation for "Verification of Neural-Network Control Systems by Integrating Taylor Models and Zonotopes" (AAAI'22) by Christian Schilling, Marcelo Forets, and Sebastián Guadalupe. See the arXiv preprint [here: arXiv:2112.09197](https://arxiv.org/abs/2112.09197).
 
