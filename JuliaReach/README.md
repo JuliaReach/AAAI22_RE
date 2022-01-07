@@ -17,7 +17,7 @@ This manual describes the steps to run the JuliaReach experiments.
     ```bash
     julia --project=.
     ```
-    Here `.` is the path to the files `Manifest.toml` and `Project.toml`. This way Julia will use the package versions defined in `Manifest.toml`, which were used at the time when this package was prepared.
+    Then use the command `] instantiate`. Here `.` is the path to the files `Manifest.toml` and `Project.toml`. This way Julia will use the package versions defined in `Manifest.toml`, which were used at the time when this package was prepared.
     - To install the packages in a fresh version, enter the package mode (via typing `]`) and then enter the following commands:
 
     ```julia
