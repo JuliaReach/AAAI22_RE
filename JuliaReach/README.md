@@ -37,7 +37,8 @@ Go to the `JuliaReach` folder, open a REPL, and load the experiments like this:
 julia> begin
            include("Sherlock-Benchmark-10-Unicycle/Sherlock-Benchmark-10-Unicycle.jl")
            include("Sherlock-Benchmark-9-TORA/Sherlock-Benchmark-9-TORA.jl")
-           include("ACC/ACC.jl")include("Single-Pendulum/Single-Pendulum.jl")
+           include("ACC/ACC.jl")
+           include("Single-Pendulum/Single-Pendulum.jl")
            include("Double-Pendulum/Double-Pendulum.jl")
            include("Airplane/Airplane.jl")
        end
