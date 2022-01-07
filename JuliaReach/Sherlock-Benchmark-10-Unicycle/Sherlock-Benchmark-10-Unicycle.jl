@@ -3,7 +3,7 @@ module Unicycle
 using NeuralNetworkAnalysis, LaTeXStrings
 using NeuralNetworkAnalysis: UniformAdditivePostprocessing
 import Plots, DifferentialEquations
-using Plots: plot, plot!, scatter!, lens!, bbox, savefig
+using Plots: plot, plot!, scatter!, lens!, bbox, savefig, font, Measures.mm
 
 # problem
 
